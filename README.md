@@ -11,3 +11,5 @@ https://blog.hao.dev/render-client-side-only-component-in-next-js
 https://nextjs.org/docs/basic-features/data-fetching/client-side
 https://github.com/vercel/next.js/issues/2473
 
+## styling with less
+could start nice from the start
