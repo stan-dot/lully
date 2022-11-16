@@ -1,9 +1,7 @@
 // those that hold the token are then able to add more texts to decrease the total value
 // there need to be 2 opposite drives 
 // tbh the sort of thing like IPFS uses to not replicate data is ver important
-// todo there were old files:account operations, crux, global-values
 
-// TODO 'both' should trigger a flag
 export type Veracity = 'true' | 'false' | 'both' | 'neither';
 const allVeracities: Veracity[] = ['true', 'false', 'both', 'neither'];
 // should have a word list in the contract maybe? no, that's a separate operation tbh
@@ -37,8 +35,6 @@ const getGroupDivision = (opinion: Opinion, parties: Party[]): LogicalGroupDivis
     views: new Map(allVeracities.map(v => [v, getNumberOfVeracity(opinion, v, parties)])),
   }
 }
-
-
 
 type Opinion = {
   text: Claim,
@@ -260,7 +256,6 @@ const rewardEpistemicStatus = (status: EpistemicHealth): NftGenerationSetup => {
 const produceShape = (tree: Tree): void => {
 
 }
-
 /**
  * it is golden if you have high coherence. here it's a game. it's a one off event
  * someone has to get there first
