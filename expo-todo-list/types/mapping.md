@@ -2,8 +2,46 @@
 mapping of the debate stucture is as such
 
 ## entities
-- a set of Statements - 140 char strings - can read emotion, mention count
+- a set of Atomic Statements - 140 char strings - can read emotion, mention count (these are atomic in the local sense - that local debate doesn't require bringing them down right now)
 - a set of Relations between the given statements - all under different Logics, it can't be otherwise. Some logics can be derivable by default from others. But the standard logic is the champion. no need to deal with nonclassical logics in the mvp. still the logic module provides possible operators
+
+
+
+I am giving up the notion of 'OIC' though
+
+
+### dynamically recovered
+it truth of a claim only a product of its premises?
+not during the whole duration of the discourse
+in the beginning it's true somewhere.
+rationally closed - can it be only if that is what it boils down to
+axioms can't be rationally closed
+
+find disagreements between sets of relations or sets of statements?
+
+convergence quotient = measure of how much do 2 different accounts differ. there is intersection of Relations, indicating whether they have common interests. then agreement as % of leaves of the intersection that are common
+
+
+get a golden NFT if epistemic status is high enough
+
+
+### what is a double crux?
+
+- get disagreements given 2 people
+- get crux suggestion for 1 person given some optinoin - some premises leading to that. could be from them or elsewhere
+- check if it's a double one - 
+
+
+hybrid disourses would be the best afaik
+the normal discourse would be a bit different from the 
+ALL syntax, 
+EXISTS syntax
+after a rationally valid argument is made (premise -following concession)
+it's an iteration over children to find out 
+
+
+red,(no) black(neither), blue(both), green(yes)?
+
 
 ### example
 moon is made of cheese <- type of justification (tbh that's from Melange's notes!) <- it has holes
@@ -11,6 +49,10 @@ moon is made of cheese <- type of justification (tbh that's from Melange's notes
 some logical statement <- logical justification <-
 
 if you make AND it launches mode warning of logical errors
+
+from 1 statement there can follow many justificatios for different statements, different relations
+so 'is example'?
+Relation always has type, and logical veracity = boolean by default
 
 
 relations are ALWAYS questionable, no need to check whether given 2 nodes are attacked their relation or themselves
@@ -33,9 +75,6 @@ evaluation of operators is first 20 characters and ...; unless that's not identi
 
 user chooses the logic type to display. but the argument is saved in the standard way regardless
 
-
-
-
 ### what people get displayed
 is decided by an algorithm decided to drive up the size of the corpus?
 or maybe competitively with quality and interconnectedness of the corpus
@@ -56,13 +95,17 @@ User
 - positions
 - topics most used
 - public: if True, it's a Speaker
-- 
+
+#### recovered dynamically
+- Epistemic status across different sections
+- validated Relations in trees
 
 
 
 ### using the ghost api to drive real stories, linked to Lully content
 https://ghost.org/docs/content-api/
 
+https://github.com/jsongraph/json-graph-specification
 
 
 
@@ -94,6 +137,9 @@ is Logic only available in display?
 
 there should be only 1 level of complexity allowed in the statements
 
+## things to get
+- verisimilitude - correspondence to the global Topic list? or some Topic standard
+- 
 
 ## from definitions
 it can't be
@@ -135,3 +181,10 @@ can search for
 - some current relation
 - quit option, yes/no or unsure (null added)
 - 
+
+
+## exports
+- IPFS AVRO
+- local download 
+- ghost writer
+
