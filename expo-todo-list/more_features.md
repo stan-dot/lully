@@ -51,3 +51,14 @@ https://github.com/benweet/stackedit.js
 - days of more writing
 - daily challenge
 - explore your cruxes
+
+
+## algorithmic ranking of topics
+in plus
+- someone changed their mind
+- long engagement was there
+
+
+in minus
+- short engagement but many clicks
+- discarded
